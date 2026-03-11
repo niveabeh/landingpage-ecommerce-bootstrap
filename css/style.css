@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserra', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -146,19 +146,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
+
 #mini-banners .col-12 h2{
     text-transform: uppercase;
-    max-width: 50px;
+    max-width: 140px;
     font-size: 2.2em;
     font-weight: 700;
     line-height: 1em;
 }
+
 #mini-banners .col-12 img{
-    height: 220px;
-    position: relative;
-    right: 1em;
-    bottom: 1em;
+    max-height: 180px;
+    width: auto;
+    align-self: flex-end;
 }
 #mini-banners .col-12 a{
     font-weight: bold ;
